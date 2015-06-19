@@ -1,0 +1,16 @@
+body {
+  background: #eee;
+}
+
+ul {
+  list-style: none;
+}
+
+.attribution {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.hidden {
+  display: none;
+}

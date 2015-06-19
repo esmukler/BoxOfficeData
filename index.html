@@ -10,6 +10,10 @@
 
     <h1>Movie Data</h1>
 
+    <div class="attribution">Data courtesy of 
+      <a href="https://www.themoviedb.org/">TheMovieDB</a>
+    </div>
+
     <form class="search">
       <label>Actor or Actress
         <input type="text" name="actor" value="">
@@ -17,7 +21,17 @@
       <input type="submit">
     </form>
 
-    <ul class="results"></ul>
+    <table class="results hidden">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Year</th>
+          <th>Budget</th>
+          <th>Revenue</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
 
     <script src="assets/jquery-2.1.1.js"></script>
     <script src="assets/boxOffice.js"></script>
